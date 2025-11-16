@@ -12,3 +12,20 @@ Upon the submission of an order by a customer, the user-specified maximum price 
 After successful delivery, the driver is paid the agreed order amount and the customer is reimbursed for the money that was not spent in the transaction *(escrow - final price)*.
 
 This decentralized approach grants power to both customer and driver in price setting, removing fees found in centralized systems.  Drivers' profits don't struggle and customers pay less overall due to the lack of fees.
+
+
+### UI Overview
+
+![](./web/public/UI-default.png)
+This is the main page of DeDash once the user logs in with their wallet, nearby restaurants are shown in a list in the middle with search functionality in the navbar above.
+
+![](./web/public/UI-sorting.png)
+The nearby restaurants can be sorted by distance, reviews, or estimated time of delivery.
+
+![](./web/public/UI-sidebar.png)
+Users are also able to use the sidebar to view profile information such as past orders, change their settings, or log out.
+
+
+### Technical Overview
+
+DeDash uses blockchain technology to avoid the need of paying a middle man. We created a backend via the Foundary Forge and Solidity, then combined that with a frontend created with React, Next.js, and Tailwind.css.
