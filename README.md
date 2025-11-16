@@ -5,7 +5,7 @@
 
 Using the concept of a *Dutch Reverse Auction*, customers set a starting, maximum cost that they are willing to pay for an order, and a maximum time interval that they are willing to wait.  
 
-The final price of the order begins at the starting price and increases towards the maximum over a given time interval.  The price is set when a driver accepts an offer/delivery or when the time limit is reached.  
+The price of the delivery is dynamic; it begins at the starting price selected by the user, and gradully increments towards their max price until the order is either picked up by a nearby driver or the time limit is reached, prompting the order to be cancelled and the funds refunded to the user.
 
 Upon the submission of an order by a customer, the user-specified maximum price is withdrawn from the user's wallet, being held on the blockchain in escrow, ensuring the user has sufficient funds and guaranteeing the driver's payment upon successful delivery.  
 
