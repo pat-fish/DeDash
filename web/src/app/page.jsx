@@ -1,8 +1,9 @@
-export default function Home() {
+import Link from "next/link";
+
+export default function Page() {
   return (
     <>
-      <NavBar />
-      <RestList />
+      <Link href="/home">Home</Link>
     </>
   );
 }
