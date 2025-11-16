@@ -17,7 +17,7 @@ This decentralized approach grants power to both customer and driver in price se
 ### UI Overview
 
 ![](./web/public/UI-default.png)
-This is the main page of DeDash once the user logs in with their wallet, nearby restaurants are shown in a list in the middle with search functionality in the navbar above.
+This is the main page of **DeDash**.  After the user logs in with their wallet, nearby restaurants are shown in a list in the middle with search functionality in the navbar above.
 
 ![](./web/public/UI-sorting.png)
 The nearby restaurants can be sorted by distance, reviews, or estimated time of delivery.
@@ -28,4 +28,4 @@ Users are also able to use the sidebar to view profile information such as past 
 
 ### Technical Overview
 
-DeDash uses blockchain technology to avoid the need of paying a middle man. We created a backend via the Foundary Forge and Solidity, then combined that with a frontend created with React, Next.js, and Tailwind.css.
+**DeDash** uses blockchain technology to avoid the paying of a middle man. We developed a smart contract via the Forge build tool from the Foundry toolchain, writing in Solidity.  This smart contract is combined  with a frontend developed with Next.js, using React and Tailwind.css.
